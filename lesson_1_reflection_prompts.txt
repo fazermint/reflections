@@ -1,0 +1,61 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	Durch den Vergleich der geänderten Stellen innerhalb der Dateien.
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Noch keine Ahnung ...
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Klare Abgrenzung der einzelnen Commits - logisch und gewollt
+    ein automatisches "speichern" hat den Vorteil, dass im Fall eines Absturzes
+    die Daten gesichert sind und erhalten bleiben, aber hat grundsätzlich nichts
+    mit dem gewollten und logischen Commiten einer Version zu tun.
+    Es muss zwischen erhalten der Daten und des aktuellen Fortschritts und dem 
+    Zustand einer "Version" unterschieden werden.
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    In Programmen werden häufig mehrere unterschiedliche Dateien benötigt um "eine"
+    Funktion oder Programm zum laufen zu bringen. Von daher macht es sinn, alle hierfür 
+    benötigten Dateien zusammen auf einem Commit zu haben.
+    In google Docs handelt es sich im normalfall um eine bestimmte Datei die unabhängig
+    von anderen ihre Funktion alleine erfüllt.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Mit git log werden die einzelnen Commits mit ID, Commit und Datum angezeigt.
+    Um diese untereinander zu Vergleichen werden die IDs mit dem Befehl git diff
+    ausgeführt. Die Änderungen werden immer von der ersten zur zweiten ID angezeigt.
+    Mit grün (+) und rot (-) werden eingefügte, bzw. gelöschte Zeilen angezeigt.
+    Es werden immer nur Änderungen an Zeilen aufgezeigt und nicht, was sich direkt in
+    der jeweiligen Zeile geändert hat.
+    Von daher sollten die Zeilen nicht zu lange und zu umfangreich werden, damit ein
+    schneller Vergleich einfacher stattfinden kann.
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Eh klar! indem man ohne Probleme wieder zu einem Zustand zurückkehren kann, bei
+    dem noch alles super funktioniert, ist man auch mutiger was neue zu probieren, was
+    ggf. alles zerstört. Man kommt ja immer wieder ganz unproblematisch zu dem Punkt zurück
+    bei dem alles noch ging :)
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    da bin ich jetzt auch gespannt ;-)
+    allerdings wohl zum testen einfach überall MACHEN!!
+
+    
