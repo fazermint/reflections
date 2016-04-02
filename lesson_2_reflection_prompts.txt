@@ -1,18 +1,72 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+	Beim Initialisieren wurde ein .git-Ordner erstellt.
+	Ohne die Initialisierung weiß git nicht wo und was es verfolgen soll.
+
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+	Die staging area beinhaltet lediglich die Dateien die man für das nächste 
+	commit vorgesehen hat. Dies kann nur eine Datei sein oder alle.
+	Wobei beim Aufrufen des status zum einen die im stage enthaltenen Dateien
+	angezeigt werden, sowie die Dateien, an denen Änderungen vorgenommen wurden
+	und noch nicht auf die stageing area gebracht wurden. Beim nächsten commit somit
+	also nicht mit berücksichtigt werden.
+	Sehr wahrscheinlich bleibt es übersichtilicher und belastet weniger Speicher, wenn
+	nur die benötigten/ausgewählten Dateien im commit berücksichtigt werden, ohne
+	immer ALLE Daten des repositoriys zu commiten.
+
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	In der staging area kann man noch mal genau vergleichen welche Änderungen direkt
+	vorgenommen wurden. Zum einen in Bezug auf die aktuell geänderte Datei (vor dem adden)
+	und dann von der in der staging area befindlichen Datei zum letzten commit.
+
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	Klar. Wenn an was neuem gebastelt wird, und die aktuelle funktionierende Version
+	auf jeden Fall beibehalten werden soll, bzw. nicht das Risiko eingegangen werden 
+	darf, dass diese plötzlich nicht mehr funktioniert.
+	So kann man komplette Umstrukturierungen des Programms vornehmen ohne ein Risiko
+	einzugehen.
+
+
 How do the diagrams help you visualize the branch structure?
+
+	Durch die Diagramme wird deutlicher, welche Zweige/Branches bzw. Commits von welchem
+	Commit direkt erreicht werden können, bzw. in dessen Log mit angezeigt werden.
+	Ohne Branch-namen sind sonst einige Bereiche der Commits nicht mehr direkt erreichbar
+	oder ersichtlich. Mit dem Diagramm hat man immer den kompletten Überblick über alle 
+	aktuellen Branches an denen gearbeitet wird.
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	Nach dem mergen hat man einen neuen Ast, in dem beide Funktionen vereint sind.
+	Bzw. der Branch Coin wurde in den Masterbranch integriert/verschmolzen.
+	Master hat jetzt eine neue/zusätzliche Funktion.
+	Im Diagramm wird deutlich, dass die Verzweigung einen gemeinsamen Ursprung hat, 
+	der als Ausgang für die Verschmelzung hergenommen wird. Die Änderungen in die eine,
+	wie in die andere Verzweigung werden mit der Wurzel verglichen und die jeweiligen Änderungen
+	bis zur Verschmelzung zusammengefügt.
+
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+	Vorteil: bei einfachen und logischen Änderungen, z.B. auch umfangreichen, ist
+	es deutliche einfacher, wenn diese automatisch von git durchgeführt werden.
+	Dies könnte sonst zu überflüssigem/unnötigen Aufwand führen
+	Nachteil: evtl. werden Funktionen zusammengerführt, die für das Programm im
+	ersten Schritt unterschiedlich aussehen (z.B. unterschiedliche Funktionsbezeichnungen),
+	aber doch die gleiche Aufgabe erledigen.
+	Und die manuelle Überprüfung gibt noch mal Sicherheit, bei komplexeren Zusammenführungen
+	noch mal draufschauen zu können.
+
+	
