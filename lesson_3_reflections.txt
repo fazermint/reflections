@@ -1,0 +1,13 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+	Macht sinn, wenn man von unterschiedlichen Geräten aus arbeitet und immer und überall den 
+	gleichen Stand haben möchte. Oder wenn mehrere Leute an einem Projekt arbeiten, um die 
+	zusätzlichen Features der anderen auch zu bekommen.
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+	Wenn andere zusätzliche Features zum repository hinzugefügt haben, die evtl. mit meiner Arbeit kollidieren, wäre
+	es ein immenser Nachteil, wenn die pulls automatisch vollzogen werden.
+	So kann man nach Bedarf selbst die benötigten Versionen ziehen.
+
