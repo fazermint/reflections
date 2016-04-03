@@ -22,3 +22,11 @@ Describe the differences between forks, clones, and branches. When would you use
 	Branches hingegen sind Abzweigungen innerhalb eines repositorys, z.b. um neue Funktionen zu erstellen oder zu
 	testen, ohne den Hauptzweig zu verletzten.
 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	Durch die Kopie des letzten Zustands des entfernten Repositorys kann man einfach die lokal vollzogenen Änderungen
+	vergleichen, bevor man einen nächsten Commit absendet.
+
+
+
