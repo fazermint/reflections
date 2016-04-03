@@ -11,3 +11,14 @@ Why might you want to always pull changes manually rather than having Git automa
 	es ein immenser Nachteil, wenn die pulls automatisch vollzogen werden.
 	So kann man nach Bedarf selbst die benötigten Versionen ziehen.
 
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	Forks dienen um repositorys innerhalb von GitHub zu klonen. D.h. wenn ich an einem Projekt in GitHub
+	selbst arbeiten möchte, ohne den Code des Erstellers zu verändern, kann ich mir dieses repository quasi
+	in meinen Account kopieren, um dann selbst Änderungen vorzunehmen.
+	Clones sind reine Kopien eines repositorys innerhalb der lokalen Umgebung oder um von GitHub ein repository
+	lokal zu speichern.
+	Branches hingegen sind Abzweigungen innerhalb eines repositorys, z.b. um neue Funktionen zu erstellen oder zu
+	testen, ohne den Hauptzweig zu verletzten.
+
