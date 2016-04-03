@@ -29,4 +29,14 @@ What is the benefit of having a copy of the last known state of the remote store
 	vergleichen, bevor man einen nächsten Commit absendet.
 
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	Ein Möglichkeit ist über einen gemeinsamen Server zu arbeiten, auf dem die Daten liegen, oder man müsste immer
+	wieder Daten z.B. per Mail verschicken, damit die Beteiligten mit drauf schauen können und ggf. Vorschläge zur
+	Änderung zu machen. Evtl. müssten die Aufgaben deutlicher verteilt werden, damit jeder genau weiß welcher Bereich
+	von ihm abgedeckt wird. Durch Git/GitHub wird dies allerdings sehr elegant, da durch die unterschiedlichen Zweige
+	gleichzeitig an Verschiedenen Dingen gearbeitet werden kann, ohne sich in die Quere zu kommen. und am Ende
+	ggf. alles wieder zu vereinen.
+
+
 
